@@ -2,3 +2,4 @@ test
 master commit
 commit
 rebase check
+rebase check4
