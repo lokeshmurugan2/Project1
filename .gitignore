@@ -1,3 +1,9 @@
-#This is a comment
+#multiple ways for Git Ignore
 /Readme.txt
-Test.txt
+#/newfolder/Readme.txt
+#Readme.txt - will add all files with same name in the repository
+#Read[a-z]*.txt - Regex expression works too
+#!Readme.txt - exception - skips to ignore
+#Test.txt - committed files will not be accepted
+/newfolder/*
+/.gitignore
